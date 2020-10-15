@@ -67,7 +67,26 @@ const IndexPage = () => (
             non error atque earum quasi voluptatem dolores quia. Ad nostrum
             nulla distinctio. Asperiores!
           </p>
-          <Link className="btn btn-primary">Coba sekarang</Link>
+          <Link className="btn btn-primary btn-started">Coba sekarang</Link>
+        </div>
+
+        <div className="col-md-6 pt-3 mt-5">
+          <h2>
+            harga yang
+            <span className="font-weight-bold"> hemat dan bersahabat</span>
+          </h2>
+          <p className="font-weight-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            repellendus tempore rerum officia suscipit porro provident, dolor
+            non error atque earum quasi voluptatem dolores quia. Ad nostrum
+            nulla distinctio. Asperiores!
+          </p>
+          <Link className="btn btn-primary btn-started">Coba sekarang</Link>
+        </div>
+        <div className="col-md-6 mt-3">
+          <div style={{ maxWidth: "370px" }}>
+            <Image filename="header.3.png" alt="jasa web desain professional" />
+          </div>
         </div>
       </div>
     </div>
