@@ -1,0 +1,16 @@
+.home-jmb {
+  background: url("../images/home-jmb.png") no-repeat !important;
+  background-size: 105% 80% !important;
+  height: 95vh !important;
+  width: 100% !important;
+}
+
+.btn-started {
+  border-radius: 12px !important;
+}
+
+.line {
+  width: 100px;
+  color: #1b9ed9;
+  border: 2px solid #1b9ed9;
+}
