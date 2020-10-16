@@ -12,7 +12,7 @@ function Caraousel() {
       showThumbs={false}
       showStatus={false}
       autoPlay={true}
-      interval={6100}
+      interval={3500}
     >
       <div>
         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />

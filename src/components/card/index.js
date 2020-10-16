@@ -6,7 +6,6 @@ function Card({ icon, title, description }) {
       <div
         className="card py-4 card-bg"
         style={{
-          width: "20rem",
           color: "white",
           height: "100%",
           backgroundColor: "#128ECE",

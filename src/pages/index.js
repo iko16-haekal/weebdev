@@ -7,12 +7,14 @@ import Navbar from "../components/navbar"
 import "./style.css"
 import Card from "../components/card"
 import Caraousel from "../components/caraousel"
+import Footer from "../components/footer"
 const IndexPage = () => (
   <>
     <SEO
       title="Jasa Pembuatan Website murah hanya di weebdev"
       description="Jasa pembuatan website untuk profil perusahaan, personal blog,
        toko online, dan UKM. tinggal Pesan, bayar, langsung proses dan pastinya Murah."
+      keyword="jasa,website murah,jasa desain murah,jasa pembuatan website murah berkualitas"
     />
 
     <Navbar />
@@ -65,10 +67,9 @@ const IndexPage = () => (
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
           <p className="font-weight-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            repellendus tempore rerum officia suscipit porro provident, dolor
-            non error atque earum quasi voluptatem dolores quia. Ad nostrum
-            nulla distinctio. Asperiores!
+            kami melayani pembuatan website dengan desain modern, minimalis ,
+            dan unik, kami menyediakan berbagai tema untuk membangun website
+            anda
           </p>
           <Link className="btn btn-primary btn-started">Coba sekarang</Link>
         </div>
@@ -102,29 +103,35 @@ const IndexPage = () => (
       style={{ backgroundColor: "#1B9ED9", minHeight: "100%" }}
     >
       <div className="container">
-        <h2 className="text-center text-white">Fitur Website</h2>
+        <h2 className="text-center text-white pb-4">Fitur Website</h2>
 
-        <div className="row mt-5 justify-content-center">
+        <div className="row mt-5 m-auto">
           <div className="col-md-4">
-            <Card
-              icon="fa fa-mobile"
-              title="Mobile friendly"
-              description="bagi anda yang ingin memiliki website yang bisa diakses diberbagai device seperti smarthphone, laptop , tablet"
-            />
+            <div className="mb-4">
+              <Card
+                icon="fa fa-mobile"
+                title="Mobile friendly"
+                description="bagi anda yang ingin memiliki website yang bisa diakses diberbagai device seperti smarthphone, laptop , tablet"
+              />
+            </div>
           </div>
           <div className="col-md-4">
-            <Card
-              icon="fa fa-shield "
-              title="Security ssl"
-              description="Buat website di weebdev untuk meningkatkan keamanan website anda dari dari serangan hacker"
-            />
+            <div className="mb-4">
+              <Card
+                icon="fa fa-shield "
+                title="Security ssl"
+                description="Buat website di weebdev untuk meningkatkan keamanan website anda dari dari serangan hacker"
+              />
+            </div>
           </div>
           <div className="col-md-4">
-            <Card
-              icon="fa fa-credit-card-alt "
-              title="Payment gateaway"
-              description="weebdev menyediakan fasilitas sistem pembayaran melalui bank hingga kartu kerdit untuk bertransaksi online"
-            />
+            <div className="mb-4">
+              <Card
+                icon="fa fa-credit-card-alt "
+                title="Payment gateaway"
+                description="weebdev menyediakan fasilitas sistem pembayaran melalui bank hingga kartu kerdit untuk bertransaksi online"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -139,6 +146,8 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+
+    <Footer />
   </>
 )
 
