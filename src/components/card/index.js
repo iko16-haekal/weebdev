@@ -5,7 +5,12 @@ function Card({ icon, title, description }) {
     <>
       <div
         className="card py-4 card-bg"
-        style={{ width: "19rem", color: "white", height: "280px" }}
+        style={{
+          width: "20rem",
+          color: "white",
+          height: "100%",
+          backgroundColor: "#128ECE",
+        }}
       >
         <span className="text-center" style={{ fontSize: "3em" }}>
           <i className={icon} aria-hidden="true"></i>

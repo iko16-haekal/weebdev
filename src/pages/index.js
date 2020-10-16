@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Navbar from "../components/navbar"
 import "./style.css"
 import Card from "../components/card"
+import Caraousel from "../components/caraousel"
 const IndexPage = () => (
   <>
     <SEO
@@ -97,15 +98,11 @@ const IndexPage = () => (
     </div>
 
     <div
-      className="container-fluid my-5 py-4"
-      style={{ backgroundColor: "#1B9ED9", height: "75vh" }}
+      className="container-fluid mt-5 mb-4 pb-5 pt-4"
+      style={{ backgroundColor: "#1B9ED9", minHeight: "100%" }}
     >
       <div className="container">
         <h2 className="text-center text-white">Fitur Website</h2>
-        <p className="text-center text-light m-auto" style={{ width: "50%" }}>
-          kami menyediakan fitur fitur yang membantu <br /> memenuhi kebutuhan
-          website anda, di weebdev semua LENGKAP!
-        </p>
 
         <div className="row mt-5 justify-content-center">
           <div className="col-md-4">
@@ -129,6 +126,16 @@ const IndexPage = () => (
               description="weebdev menyediakan fasilitas sistem pembayaran melalui bank hingga kartu kerdit untuk bertransaksi online"
             />
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="container pb-5">
+      <h1 className="text-center">Testimonial</h1>
+      <hr className="line text-center" />
+      <div className="row">
+        <div className="col">
+          <Caraousel />
         </div>
       </div>
     </div>
