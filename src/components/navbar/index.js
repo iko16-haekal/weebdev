@@ -24,7 +24,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
-            <Link className="nav-item nav-link mx-2">Home</Link>
+            <Link className="nav-item nav-link mx-2 actives">Home</Link>
             <Link className="nav-item nav-link mx-2">Tema</Link>
             <Link className="nav-item nav-link mx-2">Paket harga</Link>
             <Link className="nav-item nav-link ml-2">Layanan pendukung</Link>

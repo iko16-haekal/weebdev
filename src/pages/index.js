@@ -5,6 +5,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Navbar from "../components/navbar"
 import "./style.css"
+import Card from "../components/card"
 const IndexPage = () => (
   <>
     <SEO
@@ -12,6 +13,7 @@ const IndexPage = () => (
       description="Jasa pembuatan website untuk profil perusahaan, personal blog,
        toko online, dan UKM. tinggal Pesan, bayar, langsung proses dan pastinya Murah."
     />
+
     <Navbar />
     <div className="container-fluid home-jmb">
       <div className="container ">
@@ -85,7 +87,47 @@ const IndexPage = () => (
         </div>
         <div className="col-md-6 mt-3">
           <div style={{ maxWidth: "370px" }}>
-            <Image filename="header.3.png" alt="jasa web desain professional" />
+            <Image
+              filename="header.3.png"
+              alt="jasa web desain professional dan murah"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      className="container-fluid my-5 py-4"
+      style={{ backgroundColor: "#1B9ED9", height: "75vh" }}
+    >
+      <div className="container">
+        <h2 className="text-center text-white">Fitur Website</h2>
+        <p className="text-center text-light m-auto" style={{ width: "50%" }}>
+          kami menyediakan fitur fitur yang membantu <br /> memenuhi kebutuhan
+          website anda, di weebdev semua LENGKAP!
+        </p>
+
+        <div className="row mt-5 justify-content-center">
+          <div className="col-md-4">
+            <Card
+              icon="fa fa-mobile"
+              title="Mobile friendly"
+              description="bagi anda yang ingin memiliki website yang bisa diakses diberbagai device seperti smarthphone, laptop , tablet"
+            />
+          </div>
+          <div className="col-md-4">
+            <Card
+              icon="fa fa-shield "
+              title="Security ssl"
+              description="Buat website di weebdev untuk meningkatkan keamanan website anda dari dari serangan hacker"
+            />
+          </div>
+          <div className="col-md-4">
+            <Card
+              icon="fa fa-credit-card-alt "
+              title="Payment gateaway"
+              description="weebdev menyediakan fasilitas sistem pembayaran melalui bank hingga kartu kerdit untuk bertransaksi online"
+            />
           </div>
         </div>
       </div>
