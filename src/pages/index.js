@@ -20,14 +20,14 @@ const IndexPage = () => (
     <Navbar />
     <div className="container-fluid home-jmb">
       <div className="container ">
-        <div className="row ">
-          <div className="col-md-6 mt-5 pt-5">
+        <div className="row jmb-row">
+          <div className="col-md-6 col-jmb-text">
             <h2
               style={{
                 fontSize: "48px",
                 fontFamily: "calibri",
               }}
-              className="text-white font-weight-regular pt-4"
+              className="text-white text-jmb font-weight-regular pt-4"
             >
               Jasa Pembuatan Website Dengan Harga Murah & Mudah Digunakan
             </h2>
@@ -36,7 +36,7 @@ const IndexPage = () => (
             </Link>
           </div>
 
-          <div className="col-md-6 mt-5 pt-5">
+          <div className="col-md-6 col-jmb-img">
             <div className="mt-5">
               <Image
                 filename="header.1.png"
@@ -50,9 +50,7 @@ const IndexPage = () => (
 
     <div className="container mb-5">
       <h2 className="text-center">Why choosing us</h2>
-      <p className="text-center text-muted">
-        karena di sini semua orang bisa memiliki website
-      </p>
+
       <hr className="text-center line" />
 
       <div className="row pt-4">
@@ -63,7 +61,7 @@ const IndexPage = () => (
         </div>
         <div className="col-md-6 mt-5">
           <h2>
-            buat websitemu
+            desain website
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
           <p className="font-weight-light">

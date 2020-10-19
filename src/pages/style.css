@@ -14,3 +14,35 @@
   color: #1b9ed9;
   border: 2px solid #1b9ed9;
 }
+
+.col-jmb-text {
+  margin-top: 100px !important;
+}
+
+.col-jmb-img {
+  margin-top: 65px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-jmb {
+    font-size: 22px !important;
+  }
+  .home-jmb {
+    background: url("../images/home-jmb.png") no-repeat !important;
+    background-size: 105% 80% !important;
+    height: 90vh !important;
+    width: 100% !important;
+  }
+  .jmb-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .col-jmb-text {
+    margin-top: 0px !important;
+  }
+
+  .col-jmb-img {
+    margin-top: 0px !important;
+  }
+}
