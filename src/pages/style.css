@@ -44,9 +44,14 @@
 
   .col-jmb-text {
     margin-top: 0px !important;
+    text-align: center;
   }
 
   .col-jmb-img {
     margin-top: 0px !important;
+  }
+
+  .row-sec2 {
+    margin-top: -40px !important;
   }
 }

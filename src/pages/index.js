@@ -48,20 +48,20 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container mb-5">
+    <div className="container mb-5 ">
       <h2 className="text-center">Why choosing us</h2>
 
       <hr className="text-center line" />
 
-      <div className="row pt-4">
+      <div className="row pt-4 row-sec2">
         <div className="col-md-6">
           <div style={{ maxWidth: "450px" }}>
-            <Image filename="header.2.png" alt="jasa web desain professional" />
+            <Image filename="header.2.png" alt="jasa web desain professional"  className="mobile-hide" />
           </div>
         </div>
         <div className="col-md-6 mt-5">
           <h2>
-            desain website
+            desain web
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
           <p className="font-weight-light">
@@ -87,7 +87,8 @@ const IndexPage = () => (
         </div>
         <div className="col-md-6 mt-3">
           <div style={{ maxWidth: "370px" }}>
-            <Image
+            <Image  
+            className="mobile-hide"
               filename="header.3.png"
               alt="jasa web desain professional dan murah"
             />
