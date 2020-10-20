@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "../image"
-
+import "./style.css";
 function Footer() {
   return (
     <footer
@@ -16,7 +16,7 @@ function Footer() {
           <hr class="clearfix w-100 d-md-none pb-3" />
 
           <div class="col-md-4 mb-md-0 mb-3">
-            <div style={{ maxWidth: "200px" }}>
+            <div style={{ maxWidth: "200px", }} className="mobile-footer-logo" >
               <Image alt="footer" filename="logofooter.png" />
             </div>
 
@@ -26,7 +26,7 @@ function Footer() {
               suscipit deleniti sit molestiae in
             </h6>
             <span
-              className="mb-5"
+              className="mb-5 span-icon"
               style={{
                 fontSize: "17px",
                 width: "25%",
@@ -55,8 +55,8 @@ function Footer() {
 
             <hr
               align="left"
-              style={{ width: "44px" }}
-              className="line text-left"
+              style={{ width: "44px", }}
+              className="line mobile-footer-text"
             />
 
             <ul class="list-unstyled">
