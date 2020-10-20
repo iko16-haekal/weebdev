@@ -15,10 +15,10 @@ function Card({ icon, title, description }) {
           <i className={icon} aria-hidden="true"></i>
         </span>
         <div className="card-body">
-          <h5 className="card-title text-center text-white font-weight-bold">
+          <h5 className="card-title text-center text-white font-weight-bold ">
             {title}
           </h5>
-          <h6 class="card-text text-white text-center ">{description}</h6>
+          <h6 class="card-text text-white text-center mobile-text-p">{description}</h6>
         </div>
       </div>
     </>

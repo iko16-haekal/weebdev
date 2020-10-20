@@ -33,7 +33,7 @@
   .home-jmb {
     background: #1b9ed9 no-repeat !important;
     margin-bottom: 40px;
-    height: 60vh !important;
+    height: 440px !important;
     width: 100% !important;
   }
   .jmb-row {
@@ -53,5 +53,12 @@
 
   .row-sec2 {
     margin-top: -60px !important;
+  }
+
+  .mobile-text-h3 {
+    font-size: 22px !important;
+  }
+  .mobile-text-p {
+    font-size: 16px !important;
   }
 }

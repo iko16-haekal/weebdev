@@ -49,7 +49,7 @@ const IndexPage = () => (
     </div>
 
     <div className="container mb-5 ">
-      <h2 className="text-center">Why choosing us</h2>
+      <h2 className="text-center mobile-text-h3">Why choosing us</h2>
 
       <hr className="text-center line" />
 
@@ -60,11 +60,11 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-md-6 mt-5">
-          <h2>
+          <h2 className="mobile-text-h3">
             desain web
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
-          <p className="font-weight-light">
+          <p className="font-weight-light mobile-text-p">
             kami melayani pembuatan website dengan desain modern, minimalis ,
             dan unik, kami menyediakan berbagai tema untuk membangun website
             anda
@@ -73,11 +73,11 @@ const IndexPage = () => (
         </div>
 
         <div className="col-md-6 pt-3 mt-5">
-          <h2>
+          <h2 className="mobile-text-h3">
             harga yang
             <span className="font-weight-bold"> hemat dan bersahabat</span>
           </h2>
-          <p className="font-weight-light">
+          <p className="font-weight-light mobile-text-p">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             repellendus tempore rerum officia suscipit porro provident, dolor
             non error atque earum quasi voluptatem dolores quia. Ad nostrum
@@ -102,7 +102,7 @@ const IndexPage = () => (
       style={{ backgroundColor: "#1B9ED9", minHeight: "100%" }}
     >
       <div className="container">
-        <h2 className="text-center text-white pb-4">Fitur Website</h2>
+        <h2 className="text-center text-white pb-4 mobile-text-h3">Fitur Website</h2>
 
         <div className="row mt-5 m-auto">
           <div className="col-md-4">
@@ -137,7 +137,7 @@ const IndexPage = () => (
     </div>
 
     <div className="container pb-5">
-      <h1 className="text-center">Testimonial</h1>
+      <h1 className="text-center mobile-text-h3">Testimonial</h1>
       <hr className="line text-center" />
       <div className="row">
         <div className="col">
