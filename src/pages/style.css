@@ -24,19 +24,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none !important;
+  }
   .text-jmb {
     font-size: 22px !important;
   }
   .home-jmb {
     background: #1b9ed9 no-repeat !important;
     margin-bottom: 40px;
-    height: 63vh !important;
+    height: 60vh !important;
     width: 100% !important;
   }
   .jmb-row {
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
     flex-direction: column-reverse;
   }
 
