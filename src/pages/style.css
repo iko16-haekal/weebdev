@@ -28,13 +28,15 @@
     font-size: 22px !important;
   }
   .home-jmb {
-    background: url("../images/home-jmb.png") no-repeat !important;
-    background-size: 105% 80% !important;
-    height: 90vh !important;
+    background: #1b9ed9 no-repeat !important;
+    margin-bottom: 40px;
+    height: 63vh !important;
     width: 100% !important;
   }
   .jmb-row {
     display: flex;
+    justify-content: center;
+
     flex-direction: column-reverse;
   }
 
