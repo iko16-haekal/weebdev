@@ -19,7 +19,7 @@ const IndexPage = () => (
     <Navbar />
     <div className="container-fluid home-jmb">
       <div className="container ">
-        <div className="row jmb-row">
+        <div className="row jmb-row" data-sal="slide-up"  data-sal-duration="600">
           <div className="col-md-6 col-jmb-text">
             <h2
               style={{
@@ -47,12 +47,12 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container mb-5 ">
+    <div className="container mb-5 " >
       <h2 className="text-center mobile-text-h3">Why choosing us</h2>
 
       <hr className="text-center line" />
 
-      <div className="row pt-4 row-sec2">
+      <div className="row pt-4 row-sec2"  data-sal="fade"   data-sal-duration="1500">
         <div className="col-md-6">
           <div style={{ maxWidth: "450px" }}>
             <Image filename="header.2.png" alt="jasa web desain professional"  className="mobile-hide" />
@@ -103,7 +103,7 @@ const IndexPage = () => (
       <div className="container">
         <h2 className="text-center text-white pb-4 mobile-text-h3">Fitur Website</h2>
 
-        <div className="row mt-5 m-auto">
+        <div className="row mt-5 m-auto"  data-sal="slide-up"   data-sal-duration="600">
           <div className="col-md-4">
             <div className="mb-4">
               <Card
