@@ -63,3 +63,15 @@
     font-size: 16px !important;
   }
 }
+
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .col-jmb-img {
+    margin-top: -70px !important;
+    transform: scale(0.8) !important;
+  }
+
+  .col-jmb-text {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+}

@@ -11,8 +11,9 @@
 }
 
 .carousel .slide img {
-  width: 139px !important;
+  width: 129px !important;
   border-radius: 50%;
+  padding-bottom: 10px;
 }
 
 .myCarousel {
