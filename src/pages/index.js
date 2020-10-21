@@ -19,7 +19,7 @@ const IndexPage = () => (
     <Navbar />
     <div className="container-fluid home-jmb">
       <div className="container ">
-        <div className="row jmb-row" data-sal="slide-up"  data-sal-duration="600">
+        <div className="row jmb-row">
           <div className="col-md-6 col-jmb-text">
             <h2
               style={{
@@ -100,10 +100,10 @@ const IndexPage = () => (
       className="container-fluid mt-5 mb-4 pb-5 pt-4"
       style={{ backgroundColor: "#1B9ED9", minHeight: "100%" }}
     >
-      <div className="container">
+      <div className="container" >
         <h2 className="text-center text-white pb-4 mobile-text-h3">Fitur Website</h2>
 
-        <div className="row mt-5 m-auto"  data-sal="slide-up"   data-sal-duration="600">
+        <div className="row mt-5 m-auto"  >
           <div className="col-md-4">
             <div className="mb-4">
               <Card
