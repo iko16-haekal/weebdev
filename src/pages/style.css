@@ -1,8 +1,9 @@
 .home-jmb {
   background: url("../images/home-jmb.png") no-repeat !important;
   background-size: 105% 80% !important;
-  height: 95vh !important;
+  height: 622px !important;
   width: 100% !important;
+  overflow: hidden !important;
 }
 
 .btn-started {
@@ -23,7 +24,7 @@
   margin-top: 65px !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
   .mobile-hide {
     display: none !important;
   }
