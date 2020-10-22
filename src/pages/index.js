@@ -30,7 +30,7 @@ const IndexPage = () => (
             >
               Jasa Pembuatan Website Dengan Harga Murah & Mudah Digunakan
             </h2>
-            <Link className="btn btn-warning btn-started text-center text-white mt-3 font-weight-bold mobile-hide ">
+            <Link className="btn btn-warning btn-started text-center text-white mt-3 font-weight-bold mobile-hide tablet-hide ">
               Get started
             </Link>
           </div>

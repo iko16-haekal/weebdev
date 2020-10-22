@@ -75,3 +75,29 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 790px) {
+  .jmb-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .col-jmb-img {
+    transform: scale(1.4) !important;
+    margin-top: -10px !important;
+  }
+
+  .col-jmb-text {
+    margin-top: 40px !important;
+    text-align: center;
+  }
+
+  .text-jmb {
+    font-size: 38px !important;
+  }
+
+  .tablet-hide {
+    display: none !important;
+  }
+}
