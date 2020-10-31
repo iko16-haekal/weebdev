@@ -54,45 +54,48 @@ const IndexPage = () => (
 
       <div className="row pt-4 row-sec2"  data-sal="fade"   data-sal-duration="1500">
         <div className="col-md-6">
-          <div style={{ maxWidth: "450px" }}>
-            <Image filename="header.2.png" alt="jasa web desain professional"  className="mobile-hide" />
+          <div className="col-section-img">
+            <Image filename="header.2.png" alt="jasa web desain professional"  className="" />
           </div>
         </div>
-        <div className="col-md-6 mt-5">
-          <h2 className="mobile-text-h3">
+        <div className="col-md-6  mt-5">
+          <h2 style={{fontSize:"2rem"}} className="mobile-text-h3 text-right mobile-text-center">
             desain web
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
-          <p className="font-weight-light mobile-text-p">
+          <p className="font-weight-light mobile-text-p text-right mobile-text-center">
             kami melayani pembuatan website dengan desain modern, minimalis ,
             dan unik, kami menyediakan berbagai tema untuk membangun website
             anda
           </p>
-          <Link className="btn btn-primary btn-started">Coba sekarang</Link>
+          <Link className="btn btn-primary btn-started float-right mobile-hide">Coba sekarang</Link>
         </div>
-
-        <div className="col-md-6 pt-3 mt-5">
-          <h2 className="mobile-text-h3">
-            harga yang
-            <span className="font-weight-bold"> hemat dan bersahabat</span>
-          </h2>
-          <p className="font-weight-light mobile-text-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            repellendus tempore rerum officia suscipit porro provident, dolor
-            non error atque earum quasi voluptatem dolores quia. Ad nostrum
-            nulla distinctio. Asperiores!
-          </p>
-          <Link className="btn btn-primary btn-started">Coba sekarang</Link>
-        </div>
-        <div className="col-md-6 mt-3">
-          <div style={{ maxWidth: "370px" }}>
-            <Image  
-            className="mobile-hide"
-              filename="header.3.png"
-              alt="jasa web desain professional dan murah"
-            />
-          </div>
-        </div>
+              <div className="container-fluid">
+                <div className="row col-service-2">
+                <div className="col-md-6 mt-5">
+                  <h2 style={{fontSize:"2rem"}} className="mobile-text-h3 mobile-text-center">
+                    harga yang
+                    <span className="font-weight-bold"> hemat dan bersahabat</span>
+                  </h2>
+                  <p className="font-weight-light mobile-text-p mobile-text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                    repellendus tempore rerum officia suscipit porro provident, dolor
+                    non error atque earum quasi voluptatem dolores quia. Ad nostrum
+                    nulla distinctio. Asperiores!
+                  </p>
+                  <Link className="btn btn-primary btn-started mobile-hide">Coba sekarang</Link>
+                </div>
+                <div className="col-md-6 mt-3">
+                  <div className="ml-auto col-section-img-2" >
+                    <Image  
+                      filename="header.3.png"
+                      alt="jasa web desain professional dan murah"
+                    />
+                  </div>
+                </div>
+                </div>
+              </div>
+        
       </div>
     </div>
 

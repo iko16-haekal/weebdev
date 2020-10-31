@@ -8,11 +8,15 @@ function Caraousel() {
   return (
     <Carousel
       showArrows={true}
-      infiniteLoop={true}
       showThumbs={false}
+      infiniteLoop={true}
       showStatus={false}
       autoPlay={true}
+      stopOnHover={true}
+      swipeable={true}
       interval={3500}
+      centerMode={true}
+    
     >
       <div>
         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--0SCWkYwS--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9dhr4cw2s0skgfig8qnw.png" />

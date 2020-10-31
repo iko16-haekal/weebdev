@@ -17,17 +17,16 @@
 }
 
 .myCarousel {
-  background: #fafafa;
+  background: #fff;
   margin-top: -6%;
-  width: 54%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6%;
   padding-bottom: 8%;
   padding-left: 5%;
   padding-right: 5%;
-  border: 1px solid #ddd;
-  height: 286px;
+  height: 256px;
 }
 
 .carousel .control-dots {
@@ -88,7 +87,6 @@
 }
 
 .carousel.carousel-slider .control-arrow {
-  background: #000 !important;
   height: 50px !important;
   position: absolute;
   top: 35% !important;

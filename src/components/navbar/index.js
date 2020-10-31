@@ -28,6 +28,7 @@ function Navbar() {
             <Link className="nav-item nav-link mx-2">Tema</Link>
             <Link className="nav-item nav-link mx-2">Paket harga</Link>
             <Link className="nav-item nav-link ml-2">Layanan pendukung</Link>
+            <Link className="nav-item nav-link ml-2" to="/login">Login</Link>
           </div>
         </div>
       </div>

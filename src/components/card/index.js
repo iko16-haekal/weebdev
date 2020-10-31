@@ -18,7 +18,7 @@ function Card({ icon, title, description }) {
           <h5 className="card-title text-center text-white font-weight-bold ">
             {title}
           </h5>
-          <h6 class="card-text text-white text-center mobile-text-p">{description}</h6>
+          <h6 className="card-text text-white text-center mobile-text-p">{description}</h6>
         </div>
       </div>
     </>
