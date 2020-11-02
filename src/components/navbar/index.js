@@ -1,7 +1,9 @@
-import { Link } from "gatsby"
 import React from "react"
 import Image from "../image"
 import "./style.css"
+import Link from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
@@ -24,17 +26,15 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
-            <Link to="/" className="nav-item nav-link mx-2">
-              Home
-            </Link>
-            <Link className="nav-item nav-link mx-2">Tema</Link>
-            <Link to="paketharga" className="nav-item nav-link mx-2">
-              Paket harga
-            </Link>
-            <Link className="nav-item nav-link ml-2">Layanan pendukung</Link>
-            <Link className="nav-item nav-link ml-2" to="/login">
-              Login
-            </Link>
+            <AniLink fade to="/" className="nav-item nav-link mx-2">
+              home
+            </AniLink>
+            <AniLink fade to="/tema" className="nav-item nav-link mx-2">
+              tema
+            </AniLink>
+            <AniLink fade to="/paketharga" className="nav-item nav-link mx-2">
+              paket harga
+            </AniLink>
           </div>
         </div>
       </div>

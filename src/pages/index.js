@@ -13,7 +13,7 @@ const IndexPage = () => (
       title="Jasa Pembuatan Website murah hanya di weebdev"
       description="Jasa pembuatan website untuk profil perusahaan, personal blog,
        toko online, dan UKM. tinggal Pesan, bayar, langsung proses dan pastinya Murah."
-      keyword="jasa,website murah,jasa desain murah,jasa pembuatan website murah berkualitas"
+      keywords="jasa,weebdev,website murah,jasa desain murah,jasa pembuatan website murah berkualitas"
     />
 
     <Navbar />
@@ -47,19 +47,30 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div className="container mb-5 " >
+    <div className="container mb-5 ">
       <h2 className="text-center mobile-text-h3">Why choosing us</h2>
 
       <hr className="text-center line" />
 
-      <div className="row pt-4 row-sec2"  data-sal="fade"   data-sal-duration="1500">
+      <div
+        className="row pt-4 row-sec2"
+        data-sal="fade"
+        data-sal-duration="1500"
+      >
         <div className="col-md-6">
           <div className="col-section-img">
-            <Image filename="header.2.png" alt="jasa web desain professional"  className="" />
+            <Image
+              filename="header.2.png"
+              alt="jasa web desain professional"
+              className=""
+            />
           </div>
         </div>
         <div className="col-md-6  mt-5">
-          <h2 style={{fontSize:"2rem"}} className="mobile-text-h3 text-right mobile-text-center">
+          <h2
+            style={{ fontSize: "2rem" }}
+            className="mobile-text-h3 text-right mobile-text-center"
+          >
             desain web
             <span className="font-weight-bold"> menarik dan unik</span>
           </h2>
@@ -68,34 +79,40 @@ const IndexPage = () => (
             dan unik, kami menyediakan berbagai tema untuk membangun website
             anda
           </p>
-          <Link className="btn btn-primary btn-started float-right mobile-hide">Coba sekarang</Link>
+          <Link className="btn btn-primary btn-started float-right mobile-hide">
+            Coba sekarang
+          </Link>
         </div>
-              <div className="container-fluid">
-                <div className="row col-service-2">
-                <div className="col-md-6 mt-5">
-                  <h2 style={{fontSize:"2rem"}} className="mobile-text-h3 mobile-text-center">
-                    harga yang
-                    <span className="font-weight-bold"> hemat dan bersahabat</span>
-                  </h2>
-                  <p className="font-weight-light mobile-text-p mobile-text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                    repellendus tempore rerum officia suscipit porro provident, dolor
-                    non error atque earum quasi voluptatem dolores quia. Ad nostrum
-                    nulla distinctio. Asperiores!
-                  </p>
-                  <Link className="btn btn-primary btn-started mobile-hide">Coba sekarang</Link>
-                </div>
-                <div className="col-md-6 mt-3">
-                  <div className="ml-auto col-section-img-2" >
-                    <Image  
-                      filename="header.3.png"
-                      alt="jasa web desain professional dan murah"
-                    />
-                  </div>
-                </div>
-                </div>
+        <div className="container-fluid">
+          <div className="row col-service-2">
+            <div className="col-md-6 mt-5">
+              <h2
+                style={{ fontSize: "2rem" }}
+                className="mobile-text-h3 mobile-text-center"
+              >
+                harga yang
+                <span className="font-weight-bold"> hemat dan bersahabat</span>
+              </h2>
+              <p className="font-weight-light mobile-text-p mobile-text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                repellendus tempore rerum officia suscipit porro provident,
+                dolor non error atque earum quasi voluptatem dolores quia. Ad
+                nostrum nulla distinctio. Asperiores!
+              </p>
+              <Link className="btn btn-primary btn-started mobile-hide">
+                Coba sekarang
+              </Link>
+            </div>
+            <div className="col-md-6 mt-3">
+              <div className="ml-auto col-section-img-2">
+                <Image
+                  filename="header.3.png"
+                  alt="jasa web desain professional dan murah"
+                />
               </div>
-        
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -103,10 +120,12 @@ const IndexPage = () => (
       className="container-fluid mt-5 mb-4 pb-5 pt-4"
       style={{ backgroundColor: "#1B9ED9", minHeight: "100%" }}
     >
-      <div className="container" >
-        <h2 className="text-center text-white pb-4 mobile-text-h3">Fitur Website</h2>
+      <div className="container">
+        <h2 className="text-center text-white pb-4 mobile-text-h3">
+          Fitur Website
+        </h2>
 
-        <div className="row mt-5 m-auto"  >
+        <div className="row mt-5 m-auto">
           <div className="col-md-4">
             <div className="mb-4">
               <Card

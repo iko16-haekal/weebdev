@@ -1,15 +1,10 @@
 import React from "react"
 import Footer from "../footer"
-import SEO from "../seo"
+
 import "./style.css"
 const Pricing = () => {
   return (
     <>
-      <SEO
-        title="paket harga"
-        keywords="paket harga toko online murah, paket harga website murah, paket harga buat website murah, paket harga buat toko online mura"
-        description="weebdev memberikan beberapa pilihan paket harga untuk membuat website ataupun toko online yang murah sesuai dengan kebutuhan bisnis Anda"
-      />
       <div className="pricing1 py-5">
         <div className="container">
           <div className="row ">
@@ -66,6 +61,9 @@ const Pricing = () => {
             <div className="col-lg-4 col-md-6">
               <div className="card text-center card-shadow on-hover border-0 mb-4">
                 <div className="card-body font-14">
+                  <span className="font-weight-bold text-white badge badge-warning p-2 position-absolute price-badge font-weight-normal">
+                    Popular
+                  </span>
                   <h5 className="mt-3 mb-1 font-weight-medium">INTERMEDIATE</h5>
                   <h6 className="subtitle font-weight-normal">
                     untuk website blog dan lain lain
