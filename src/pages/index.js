@@ -94,10 +94,9 @@ const IndexPage = () => (
                 <span className="font-weight-bold"> hemat dan bersahabat</span>
               </h2>
               <p className="font-weight-light mobile-text-p mobile-text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                repellendus tempore rerum officia suscipit porro provident,
-                dolor non error atque earum quasi voluptatem dolores quia. Ad
-                nostrum nulla distinctio. Asperiores!
+                Tidak seperti produk lain yang sulit digunakan & mahal.
+                weebdev.com menyediakan solusi website yang mudah & murah untuk
+                Anda.
               </p>
               <Link className="btn btn-primary btn-started mobile-hide">
                 Coba sekarang
