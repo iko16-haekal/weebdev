@@ -6,17 +6,12 @@
   overflow: hidden !important;
 }
 
-img {
-  vertical-align: middle !important;
-}
-
 .col-section-img {
-  max-width: 361px !important;
+  width: 310px;
 }
 
 .col-section-img-2 {
-  max-width: 301px !important;
-  position: relative !important;
+  width: 301px !important;
 }
 
 .col-service-2 {
@@ -114,7 +109,7 @@ img {
   }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-device-width: 790px) {
   .jmb-row {
     display: flex !important;
     flex-direction: column !important;

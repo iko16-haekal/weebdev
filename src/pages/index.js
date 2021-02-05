@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, createRef } from "react"
 import { Link } from "gatsby"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -7,16 +7,29 @@ import "./style.css"
 import Card from "../components/card"
 import Caraousel from "../components/caraousel"
 import Footer from "../components/footer"
+import Lottie from "react-lottie"
+import laptop from "../animations/laptop.json"
+import price from "../animations/price.json"
+
 const IndexPage = () => {
-  useEffect(() => {
-    console.log("ok")
-    localStorage.setItem("nama", "ikobagas")
-    fetch("https://jsonplaceholder.typicode.com/posst", {
-      method: "post",
-    })
-      .then(response => response.json())
-      .then(json => console.log(json))
-  }, [])
+  const Options = {
+    loop: true,
+    autoplay: true,
+    animationData: laptop,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  }
+
+  const Options2 = {
+    loop: true,
+    autoplay: true,
+    animationData: price,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  }
+
   return (
     <>
       <SEO
@@ -62,67 +75,48 @@ const IndexPage = () => {
 
         <hr className="text-center line" />
 
-        <div
-          className="row pt-4 row-sec2"
-          data-sal="fade"
-          data-sal-duration="1500"
-        >
-          <div className="col-md-6">
+        <div className="row pt-4">
+          <div className="col-lg-6  d-flex justify-content-center">
             <div className="col-section-img">
-              <Image
-                filename="header.2.png"
-                alt="jasa web desain professional"
-                className=""
-              />
+              <Lottie options={Options} />
             </div>
           </div>
-          <div className="col-md-6  mt-5">
+          <div className="col-lg-6 mt-5">
             <h2
               style={{ fontSize: "2rem" }}
-              className="mobile-text-h3 text-right mobile-text-center"
+              className="mobile-text-h3 text-center mobile-text-center"
             >
               desain web
               <span className="font-weight-bold"> menarik dan unik</span>
             </h2>
-            <p className="font-weight-light mobile-text-p text-right mobile-text-center">
+            <p className="font-weight-light mobile-text-p text-center mobile-text-center">
               kami melayani pembuatan website dengan desain modern, minimalis ,
               dan unik, kami menyediakan berbagai tema untuk membangun website
               anda
             </p>
-            <Link className="btn btn-primary btn-started float-right mobile-hide">
-              Coba sekarang
-            </Link>
           </div>
-          <div className="container-fluid">
-            <div className="row col-service-2">
-              <div className="col-md-6 mt-5">
-                <h2
-                  style={{ fontSize: "2rem" }}
-                  className="mobile-text-h3 mobile-text-center"
-                >
-                  harga yang
-                  <span className="font-weight-bold">
-                    {" "}
-                    hemat dan bersahabat
-                  </span>
-                </h2>
-                <p className="font-weight-light mobile-text-p mobile-text-center">
-                  Tidak seperti produk lain yang sulit digunakan & mahal.
-                  weebdev.com menyediakan solusi website yang mudah & murah
-                  untuk Anda.
-                </p>
-                <Link className="btn btn-primary btn-started mobile-hide">
-                  Coba sekarang
-                </Link>
-              </div>
-              <div className="col-md-6 mt-3">
-                <div className="ml-auto col-section-img-2">
-                  <Image
-                    filename="header.3.png"
-                    alt="jasa web desain professional dan murah"
-                  />
-                </div>
-              </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row col-service-2">
+          <div className="col-md-6 mt-5 ">
+            <h2
+              style={{ fontSize: "2rem" }}
+              className="mobile-text-h3 mobile-text-center"
+            >
+              harga yang
+              <span className="font-weight-bold"> hemat dan bersahabat</span>
+            </h2>
+            <p className="font-weight-light mobile-text-p  mobile-text-center">
+              Tidak seperti produk lain yang sulit digunakan & mahal.
+              weebdev.com menyediakan solusi website yang mudah & murah untuk
+              Anda.
+            </p>
+          </div>
+          <div className="col-md-6" style={{ marginTop: -130, zIndex: -99 }}>
+            <div className="col-section-img-2">
+              <Lottie options={Options2} />
             </div>
           </div>
         </div>
