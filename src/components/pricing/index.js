@@ -49,7 +49,7 @@ const Pricing = () => {
                   <div className="bottom-btn">
                     <a
                       className="btn btn-success-gradiant btn-md text-white btn-block"
-                      href="#"
+                      href="/"
                     >
                       <span>Choose Plan</span>
                     </a>
@@ -102,7 +102,7 @@ const Pricing = () => {
                   <div className="bottom-btn">
                     <a
                       className="btn btn-success-gradiant btn-md text-white btn-block"
-                      href="#"
+                      href="/"
                     >
                       <span>Choose Plan</span>
                     </a>
@@ -152,7 +152,7 @@ const Pricing = () => {
                   <div className="bottom-btn">
                     <a
                       className="btn btn-success-gradiant btn-md text-white btn-block"
-                      href="#"
+                      href="/"
                     >
                       <span>Choose Plan</span>
                     </a>

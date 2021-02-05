@@ -11,6 +11,11 @@ const IndexPage = () => {
   useEffect(() => {
     console.log("ok")
     localStorage.setItem("nama", "ikobagas")
+    fetch("https://jsonplaceholder.typicode.com/posst", {
+      method: "post",
+    })
+      .then(response => response.json())
+      .then(json => console.log(json))
   }, [])
   return (
     <>

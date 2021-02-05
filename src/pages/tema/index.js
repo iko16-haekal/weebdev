@@ -67,7 +67,7 @@ const Tema = () => {
           </p>
         </div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-3">
             <div className="card">
               <div className="card-body">
                 <Image alt="toko" filename="toko.jpg" />
@@ -75,7 +75,7 @@ const Tema = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4  mb-3">
             <div className="card">
               <div className="card-body">
                 <Image alt="klinik" filename="klinik.jpg" />
@@ -83,7 +83,7 @@ const Tema = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4  mb-3">
             <div className="card">
               <div className="card-body">
                 <Image alt="toko" filename="kuliner.jpg" />
